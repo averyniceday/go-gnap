@@ -1,4 +1,4 @@
-package main
+package gognap
 
 import (
 	pubgn "github.com/averyniceday/go-mpath-proto/genome-nexus-public-api"
