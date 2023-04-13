@@ -1,10 +1,10 @@
 package gognap
 
 import (
-	pubgn "github.com/averyniceday/go-mpath-proto/genome-nexus-public-api"
-   	"fmt"
 	"context"
-    	"os"
+	"fmt"
+	pubgn "github.com/averyniceday/go-mpath-proto/genome-nexus-public-api"
+	"os"
 )
 
 
@@ -14,7 +14,7 @@ import (
 func GetVariantAnnotations(genomicLocations []pubgn.GenomicLocation) []pubgn.VariantAnnotation{
 	token := ""
 	isoformOverrideSource := ""
-	fields := []string{"hotspots"}
+	fields := []string{"annotation_summary"}
 	configuration := pubgn.NewConfiguration()
     	apiClient := pubgn.NewAPIClient(configuration)
     
@@ -34,4 +34,5 @@ func GetVariantAnnotations(genomicLocations []pubgn.GenomicLocation) []pubgn.Var
 		}
 	}
 	return variantAnnotations
-}	
+}
+
