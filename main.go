@@ -7,11 +7,14 @@ import (
 )
 
 func main() {
-	genomicLocation1 := pubgn.NewGenomicLocation("7", 140453136, 140453136, "A", "T")
-	genomicLocation2 := pubgn.NewGenomicLocation("17", 7577121, 7577121, "G", "A")
-	genomicLocation3 := pubgn.NewGenomicLocation("X", 1000, 2000, "AC", "AG")
-	genomicLocations := []pubgn.GenomicLocation{*genomicLocation1, *genomicLocation2, *genomicLocation3}
+	genomicLocation1 := pubgn.GenomicLocation{}
+	genomicLocation1.Chromosome = "17"
+	genomicLocation1.Start = 7577121
+	genomicLocation1.End = 7577121
+	genomicLocation1.ReferenceAllele = "G"
+	genomicLocation1.VariantAllele = "A"
+	genomicLocations := []pubgn.GenomicLocation{genomicLocation1}
 	variantAnnotations := gognap.GetVariantAnnotations(genomicLocations)
-	fmt.Println(*variantAnnotations[0].SuccessfullyAnnotated)
+	fmt.Println(variantAnnotations[0].SuccessfullyAnnotated)
 }
 

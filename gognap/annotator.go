@@ -3,7 +3,7 @@ package gognap
 import (
 	"context"
 	"fmt"
-	pubgn "github.com/averyniceday/go-mpath-proto/swagger"
+	pubgn "github.com/averyniceday/go-mpath-proto/genome-nexus-public-api"
 	"os"
 )
 
@@ -31,7 +31,7 @@ func GetVariantAnnotations(genomicLocations []pubgn.GenomicLocation) []pubgn.Var
 		if !variantAnnotations[i].SuccessfullyAnnotated {
 			fmt.Println("ERROR: Failed to annotate: ", variantAnnotations[i].Variant)
 		} else {
-			fmt.Println("Success: ", variantAnnotations[i].SuccessfullyAnnotated)
+			fmt.Println("Success: ", variantAnnotations[i].AnnotationSummary.TranscriptConsequences[0].TranscriptId)
 		}
 	}
 	return variantAnnotations
