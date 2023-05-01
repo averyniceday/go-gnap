@@ -1,4 +1,4 @@
-module github.com/averyniceday/go-gnap
+module github.com/callachennault/go-gnap
 
 go 1.18
 
