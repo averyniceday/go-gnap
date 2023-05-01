@@ -6,6 +6,8 @@ github.com/averyniceday/go-mpath-proto v0.0.0-20230413200706-30f5912119cf h1:PfY
 github.com/averyniceday/go-mpath-proto v0.0.0-20230413200706-30f5912119cf/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
 github.com/averyniceday/go-mpath-proto v0.0.0-20230419152402-ef43b8cf024f h1:93VGr1cD+m9nKO6cBiVkSg28Pg4WYeZ//rEcqggTND8=
 github.com/averyniceday/go-mpath-proto v0.0.0-20230419152402-ef43b8cf024f/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
+github.com/averyniceday/go-mpath-proto v0.0.0-20230428212610-c2d59dc06cdc h1:nWY3Icla3iML3cx+47CNj9/0CrU1QGW87lR4We/S/MQ=
+github.com/averyniceday/go-mpath-proto v0.0.0-20230428212610-c2d59dc06cdc/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
