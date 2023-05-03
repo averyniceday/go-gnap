@@ -1,11 +1,3 @@
-github.com/averyniceday/go-mpath-proto v0.0.0-20230329165407-16d6085cee92 h1:kA+AI0qB0zSZc/gqY3y8aIiNImio9AoMpc7KWZuWpbM=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230329165407-16d6085cee92/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230413200414-2fb9af53d5a3 h1:WX6F5LyMIfcVtVG4MXodfqbNPQjohYNNMNZZmMoYHsI=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230413200414-2fb9af53d5a3/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230413200706-30f5912119cf h1:PfY1CSpoP508oXrLLwO3WO8nBZSENOz1modH3DGxbxM=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230413200706-30f5912119cf/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230419152402-ef43b8cf024f h1:93VGr1cD+m9nKO6cBiVkSg28Pg4WYeZ//rEcqggTND8=
-github.com/averyniceday/go-mpath-proto v0.0.0-20230419152402-ef43b8cf024f/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
 github.com/averyniceday/go-mpath-proto v0.0.0-20230428212610-c2d59dc06cdc h1:nWY3Icla3iML3cx+47CNj9/0CrU1QGW87lR4We/S/MQ=
 github.com/averyniceday/go-mpath-proto v0.0.0-20230428212610-c2d59dc06cdc/go.mod h1:To28yQaSwfSsYEh/IAnIKCQroqrp4lw6A18Y2Ljyxgk=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
@@ -13,6 +5,7 @@ github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaS
 github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
 github.com/golang/protobuf v1.5.2/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/go-cmp v0.5.8 h1:e6P7q2lk1O+qJJb4BtCQXlK8vWEO8V1ZeuEdJNOqZyg=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20190603091049-60506f45cf65/go.mod h1:HSz+uSET+XFnRR8LxR5pz3Of3rY3CfYBVs4xY44aLks=
 golang.org/x/net v0.9.0 h1:aWJ/m6xSmxWBx+V0XRHTlrYrPG56jKsLdTFmsSsCzOM=
